@@ -1,4 +1,4 @@
-# Stress Prediction using Multimodal Wearable Data  
+# Personalized Stress Prediction using Multimodal Wearable Data  
 
 This repository explores **stress prediction from multimodal wearable signals** using **self-supervised learning (SSL)**.  
 It shows how SSL can address subjectivity and sparse labeling in stress datasets, achieving improved accuracy with limited labeled data.  
