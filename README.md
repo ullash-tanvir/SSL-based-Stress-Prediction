@@ -24,18 +24,17 @@ We show how SSL can address subjectivity and sparse labeling in stress datasets,
 - **Self-Supervised Pre-Training**: Built a pretext task to learn embeddings without labels.  
 - **1D-CNN**: Used to capture temporal patterns in multimodal signals.  
 - **Supervised Fine-Tuning**: Trained downstream predictors with as little as **5% labeled data**.  
-- **Evaluation Metrics**: RMSE, Accuracy, Precision, Recall, and F1.  
+- **Evaluation Metrics**: RMSE, Accuracy, Precision, Recall, and F1.
+- **Architecture**:
+  ![Figure](architecture.png)  
 
 ---
 
 ## 📊 Results  
-
-### Pre-trained Model Evaluation (Figure 6)  
-![Figure 6](images/fig6.png)  
-*Evaluation of pre-trained models showing improved generalization.*  
+ 
 
 ### SSL vs. Supervised Training (Figure 7)  
-![Figure 7](images/fig7.png)  
+![Figure](Result.png)  
 *Comparison of supervised-only vs. SSL training. SSL consistently outperforms under sparse labeling.*  
 
 ---
@@ -53,15 +52,4 @@ We show how SSL can address subjectivity and sparse labeling in stress datasets,
 - Achieved significantly low RMSE with only **5% labeled data**.  
 - Created reproducible notebooks for **SSL vs. supervised comparisons**.  
 
----
 
-## 📖 Citation  
-If you use this repository in your research, please cite:  
-
-```bibtex
-@misc{stress_ssl_2025,
-  author = {Your Name},
-  title = {Stress Prediction using Multimodal Wearable Data with Self-Supervised Learning},
-  year = {2025},
-  howpublished = {\url{https://github.com/your-repo-link}}
-}
