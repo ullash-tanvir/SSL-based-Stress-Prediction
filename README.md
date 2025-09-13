@@ -50,7 +50,7 @@ We show how SSL can address subjectivity and sparse labeling in stress datasets,
 ## 🚀 Key Contributions  
 - Designed **SSL pipelines for multimodal wearable data**.  
 - Built **1D-CNN stress prediction models** validated on datasets with 71 participants.  
-- Achieved **RMSE of 4.5** with only **5% labeled data**.  
+- Achieved significantly low RMSE with only **5% labeled data**.  
 - Created reproducible notebooks for **SSL vs. supervised comparisons**.  
 
 ---
