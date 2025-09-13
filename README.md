@@ -1,13 +1,13 @@
 # Stress Prediction using Multimodal Wearable Data  
 
 This repository explores **stress prediction from multimodal wearable signals** using **self-supervised learning (SSL)**.  
-We show how SSL can address subjectivity and sparse labeling in stress datasets, achieving improved accuracy with limited labeled data.  
+It shows how SSL can address subjectivity and sparse labeling in stress datasets, achieving improved accuracy with limited labeled data.  
 
 ---
 
 ## 📌 Project Overview  
 - **Goal**: Predict stress from wearable sensor data while reducing dependence on large labeled datasets.  
-- **Signals Used**: ECG, accelerometer, steps, sleep, and temperature.  
+- **Signals Used**: EDA, ECG, EMG, ACCELEROMETER, TEMP, RESP, and TEMPERATURE.  
 - **Approach**:  
   - Pre-train models using **self-supervised objectives**.  
   - Fine-tune on small labeled subsets.  
@@ -24,7 +24,7 @@ We show how SSL can address subjectivity and sparse labeling in stress datasets,
 - **Self-Supervised Pre-Training**: Built a pretext task to learn embeddings without labels.  
 - **1D-CNN**: Used to capture temporal patterns in multimodal signals.  
 - **Supervised Fine-Tuning**: Trained downstream predictors with as little as **5% labeled data**.  
-- **Evaluation Metrics**: RMSE, Accuracy, Precision, Recall, and F1.
+- **Evaluation Metrics**: RMSE
 - **Architecture**:
   ![Figure](architecture.png)  
 
